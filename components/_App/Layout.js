@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navbar from './Navbar';
 import GoTop from './GoTop';
 
 const Layout = ({ children }) => {
@@ -9,6 +10,8 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Songire - An SEO & Digital Marketing Company</title>
       </Head>
+
+      <Navbar />
 
       {children}
 
