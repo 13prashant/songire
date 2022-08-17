@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from '../../utils/ActiveLink';
 
-const navItems = [
+export const navItems = [
   {
     link: 'Home',
     href: '/',

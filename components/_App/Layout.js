@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import GoTop from './GoTop';
 
 const Layout = ({ children }) => {
@@ -14,6 +15,8 @@ const Layout = ({ children }) => {
       <Navbar />
 
       {children}
+
+      <Footer />
 
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>
