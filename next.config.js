@@ -8,6 +8,9 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   trailingSlash: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
