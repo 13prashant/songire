@@ -77,7 +77,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/white-logo.png" alt="logo" />
+                  <h3 style={{ color: 'white' }}>LOGO</h3>
                 </a>
               </Link>
 

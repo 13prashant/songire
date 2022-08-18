@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="single-footer-widget">
               <Link href="/">
                 <a className="logo">
-                  <img src="/images/white-logo.png" alt="logo" />
+                  <h3 style={{ color: 'white' }}>LOGO</h3>
                 </a>
               </Link>
               <p>
