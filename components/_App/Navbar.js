@@ -73,10 +73,10 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar-area navbar-color-white">
         <div className="main-nav">
-          <div className="container-fluid">
+          <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
-                <a onClick={toggleNavbar} className="navbar-brand">
+                <a className="navbar-brand">
                   <img src="/images/white-logo.png" alt="logo" />
                 </a>
               </Link>
