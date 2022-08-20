@@ -3651,6 +3651,9 @@ Services Details Area CSS
         }
       }
     }
+    .default-btn {
+      margin-top: 25px;
+    }
   }
   .overview-image {
     flex: 0 0 50%;
@@ -3663,6 +3666,10 @@ Services Details Area CSS
       text-align: center;
     }
   }
+}
+
+.overview-box:nth-child(2n) {
+  flex-direction: row-reverse;
 }
 
 /*================================================
