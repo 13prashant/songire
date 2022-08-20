@@ -1,5 +1,11 @@
+import PageBanner from '../components/Common/PageBanner';
+
 const PrivacyPolicy = () => {
-  return <div>PrivacyPolicy</div>;
+  return (
+    <>
+      <PageBanner pageTitle="Privacy Policy" />
+    </>
+  );
 };
 
 export default PrivacyPolicy;

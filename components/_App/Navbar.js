@@ -14,7 +14,7 @@ export const navItems = [
     link: 'Services',
     href: '/services',
     subLinks: [
-      { link: 'SEO', href: 'services/seo' },
+      { link: 'SEO', href: '/seo' },
       { link: 'Google Ads', href: 'services/#google-ads' },
       { link: 'Content Writing', href: 'services/#content-writing' },
       {

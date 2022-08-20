@@ -1,11 +1,11 @@
 import PageBanner from '../components/Common/PageBanner';
 
-const Blog = () => {
+const Seo = () => {
   return (
     <>
-      <PageBanner pageTitle="Blog" />
+      <PageBanner pageTitle="SEO" />
     </>
   );
 };
 
-export default Blog;
+export default Seo;
