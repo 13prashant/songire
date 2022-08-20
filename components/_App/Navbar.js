@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from '../../utils/ActiveLink';
+import Logo from './Logo';
 
 export const navItems = [
   {
@@ -77,7 +78,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <h3 style={{ color: 'white' }}>LOGO</h3>
+                  <Logo />
                 </a>
               </Link>
 

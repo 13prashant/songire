@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { navItems } from './Navbar';
+import Logo from './Logo';
 import {
   FACEBOOK_LINK,
   INSTAGRAM_LINK,
@@ -20,7 +21,7 @@ const Footer = () => {
             <div className="single-footer-widget">
               <Link href="/">
                 <a className="logo">
-                  <h3 style={{ color: 'white' }}>LOGO</h3>
+                  <Logo />
                 </a>
               </Link>
               <p>
