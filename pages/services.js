@@ -1,3 +1,4 @@
+import SongireSeo from '../components/_App/SongireSeo';
 import Link from 'next/link';
 import PageBanner from '../components/Common/PageBanner';
 import StartProjectWithUs from '../components/Common/StartProjectWithUs';
@@ -109,6 +110,7 @@ const services = [
 const Services = () => {
   return (
     <>
+      <SongireSeo seoTitle="Songire | Services" seoUrl="services" />
       <PageBanner pageTitle="Services" />
       <div className="overview-area ptb-100">
         <div className="container">

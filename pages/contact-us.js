@@ -1,3 +1,4 @@
+import SongireSeo from '../components/_App/SongireSeo';
 import PageBanner from '../components/Common/PageBanner';
 import ContactForm from '../components/ContactUs/ContactForm';
 import {
@@ -10,6 +11,8 @@ import {
 const ContactUs = () => {
   return (
     <>
+      <SongireSeo seoTitle="Songire | Contact Us" seoUrl="contact-us" />
+
       <PageBanner pageTitle="Contact Us" />
 
       <div className="contact-info-area pt-100 pb-70">

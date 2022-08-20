@@ -1,3 +1,4 @@
+import SongireSeo from '../components/_App/SongireSeo';
 import MainBanner from '../components/Home/MainBanner';
 import AboutSection from '../components/Home/AboutSection';
 import ServicesSection from '../components/Home/ServicesSection';
@@ -8,6 +9,7 @@ import PartnersSection from '../components/Home/PartnersSection';
 export default function Home() {
   return (
     <>
+      <SongireSeo />
       <MainBanner />
       <AboutSection />
       <ServicesSection />

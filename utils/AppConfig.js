@@ -1,4 +1,5 @@
 export const APP_NAME = 'Songire';
+export const APP_DOMAIN = 'https://songire.com/';
 
 export const OFFICE_ADDRESS =
   'M-52, Offira Business Hub, Opposite Bhagwan Mahavir college, Vesu, Surat';
