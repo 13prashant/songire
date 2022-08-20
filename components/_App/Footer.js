@@ -108,9 +108,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="shape16">
-        <img src="/images/shape/shape16.png" alt="image" />
-      </div>
+      {/* <div className="shape16">
+          <img src="/images/shape/shape16.png" alt="image" />
+        </div> */}
     </footer>
   );
 };

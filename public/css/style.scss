@@ -365,7 +365,9 @@ Navbar Area CSS
   }
   &.navbar-color-white {
     &.is-sticky {
-      background-color: var(--blackColor) !important;
+      // background-color: var(--blackColor) !important;
+      backdrop-filter: saturate(180%) blur(5px);
+      background-color: rgba(8, 14, 50, 0.9) !important;
     }
   }
 }

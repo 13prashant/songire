@@ -7,7 +7,7 @@ const PageBanner = ({ pageTitle }) => {
         </div>
       </div>
 
-      <div className="shape2">
+      {/* <div className="shape2">
         <img src="/images/shape/shape2.png" alt="image" />
       </div>
       <div className="shape3">
@@ -29,7 +29,7 @@ const PageBanner = ({ pageTitle }) => {
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

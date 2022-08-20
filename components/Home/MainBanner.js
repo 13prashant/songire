@@ -37,7 +37,7 @@ const MainBanner = () => {
           </div>
         </div>
 
-        <div className="shape1">
+        {/* <div className="shape1">
           <img src="/images/shape/shape1.png" alt="image" />
         </div>
         <div className="shape2">
@@ -66,7 +66,7 @@ const MainBanner = () => {
         </div>
         <div className="shape14">
           <img src="/images/shape/shape14.png" alt="image" />
-        </div>
+        </div> */}
       </div>
     </>
   );

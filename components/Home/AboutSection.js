@@ -56,9 +56,9 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="shape15">
+      {/* <div className="shape15">
         <img src="/images/shape/shape15.png" alt="image" />
-      </div>
+      </div> */}
     </div>
   );
 };
