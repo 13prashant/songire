@@ -15,19 +15,19 @@ export const navItems = [
     link: 'Services',
     href: '/services',
     subLinks: [
-      { link: 'SEO', href: '/seo' },
-      { link: 'Google Ads', href: 'services/#google-ads' },
-      { link: 'Content Writing', href: 'services/#content-writing' },
+      { link: 'SEO', href: 'services/seo' },
+      { link: 'Google Ads', href: 'services/google-ads' },
+      { link: 'Content Writing', href: 'services/content-writing' },
       {
         link: 'Social Media Marketing',
-        href: 'services/#social-media-marketing',
+        href: 'services/social-media-marketing',
       },
       {
         link: 'E-Commerce Account Management',
-        href: 'services/#e-commerce-account-management',
+        href: 'services/e-commerce-account-management',
       },
-      { link: 'Email Marketing', href: 'services/#email-marketing' },
-      { link: 'Website Development', href: 'services/#website-development' },
+      { link: 'Email Marketing', href: 'services/email-marketing' },
+      { link: 'Website Development', href: 'services/website-development' },
     ],
   },
   {

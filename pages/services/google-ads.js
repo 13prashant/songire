@@ -1,5 +1,17 @@
+import PageBanner from '../../components/Common/PageBanner';
+import SongireSeo from '../../components/_App/SongireSeo';
+
 const GoogleAds = () => {
-  return <div>GoogleAds</div>;
+  return (
+    <>
+      <SongireSeo
+        seoTitle="Songire | Services- Google Ads"
+        seoUrl="services/google-ads"
+      />
+
+      <PageBanner pageTitle="Google Ads" />
+    </>
+  );
 };
 
 export default GoogleAds;
