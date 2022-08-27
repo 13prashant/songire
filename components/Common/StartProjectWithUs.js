@@ -28,7 +28,7 @@ const StartProjectWithUs = () => {
         </div>
       </div>
 
-      <div className="shape2">
+      {/* <div className="shape2">
         <img src="/images/shape/shape2.png" alt="image" />
       </div>
       <div className="shape3">
@@ -45,7 +45,7 @@ const StartProjectWithUs = () => {
       </div>
       <div className="shape13">
         <img src="/images/shape/shape13.png" alt="image" />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -95,9 +95,9 @@ const FeedbackSection = () => {
         </div>
       </div>
 
-      <div className="shape16">
+      {/* <div className="shape16">
         <img src="/images/shape/shape16.png" alt="image" />
-      </div>
+      </div> */}
     </div>
   );
 };
