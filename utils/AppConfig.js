@@ -12,3 +12,7 @@ export const MOBILE_NUMBER = 9033762753;
 
 export const FACEBOOK_LINK = 'https://www.facebook.com/songiredigitalagency';
 export const INSTAGRAM_LINK = 'https://instagram.com/songiredigitalagency';
+
+export const COMPLETED_PROJECTS = 376;
+export const WORKING_HOURS_SPENT = 7548;
+export const EXPERT_TEAM_MEMBERS = '10+';

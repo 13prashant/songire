@@ -54,8 +54,8 @@ const OurTeam = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="section-title">
-              <span className="sub-title">Our Team</span>
-              <h2>We Help to Acheive Your Business Goal</h2>
+              <span className="sub-title">Innovative Team At Work</span>
+              <h2>We create brand success stories every day!</h2>
             </div>
           </div>
 

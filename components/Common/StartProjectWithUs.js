@@ -14,10 +14,25 @@ const StartProjectWithUs = () => {
           <div className="col-lg-6 col-md-12">
             <div className="project-start-content">
               <span className="sub-title">Get Started</span>
-              <h2>We Like to Start Your Project With Us</h2>
+              <h2>
+                Take your business online with our 360-degree digital marketing
+                solutions.
+              </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna.
+                You only need to get in touch with us and let us take care of
+                all your needs because we are a skilled digital agency offering
+                answers to your online needs. From consultation to planning to
+                execution, our team will never hesitate to go that extra mile
+                for you.
+              </p>
+              <p>
+                As an agency offering a full suite of digital marketing
+                solutions, we have a team with technology-nacked creativity. Our
+                team is small enough to provide dedicated time and attention to
+                our clients and large enough to deliver comprehensive solutions.
+                Simply put, we don't use a cookie-cutter approach for our
+                customers. Our team crafts tailored digital solutions for each
+                client as soon as they are onboarded.
               </p>
 
               <Link href="/contact-us">

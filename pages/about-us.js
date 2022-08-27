@@ -1,7 +1,9 @@
 import SongireSeo from '../components/_App/SongireSeo';
 import PageBanner from '../components/Common/PageBanner';
 import AboutContent from '../components/AboutUs/AboutContent';
+import OurBrandStory from '../components/AboutUs/OurBrandStory';
 import OurTeam from '../components/AboutUs/OurTeam';
+import StartProjectWithUs from '../components/Common/StartProjectWithUs';
 
 const AboutUs = () => {
   return (
@@ -12,7 +14,11 @@ const AboutUs = () => {
 
       <AboutContent />
 
+      <OurBrandStory />
+
       <OurTeam />
+
+      <StartProjectWithUs />
     </>
   );
 };
