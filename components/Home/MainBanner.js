@@ -10,12 +10,12 @@ const MainBanner = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="banner-content">
                   <span className="sub-title">Seo Marketing</span>
-                  <h1>We Provide Best SEO Marketing Solutions</h1>
+                  <h1>Full Spectrum of Digital Marketing Services</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                    commodo viverra maecenas accumsan lacus vel facilisis.
+                    It's time to strike out your entire digital marketing to-do
+                    list. Take your business online to see profound ROI with our
+                    dedicated team of digital marketing specialists. Get your
+                    free quote now!
                   </p>
 
                   <div className="btn-box">

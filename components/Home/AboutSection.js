@@ -22,14 +22,12 @@ const AboutSection = () => {
                 <span className="sub-title">About Us</span>
                 <h2>It's Time to Grow Online</h2>
                 <p>
-                  Providing digital marketing services is our passion, and we're
-                  passionate about helping businesses create a solid online
-                  presence. Indeed, creating a robust online presence is no
-                  longer a choice; it's mandatory. From ranking your website on
-                  search engines to revamping your existing brand identity, we
-                  can do it all for you. As a thriving digital marketing agency,
-                  you won't get the same old-school strategy— you'll get a
-                  well-created plan that fits your needs and goals.
+                  From content writing to SEO to email marketing, we offer
+                  everything you need to make your digital presence. Our digital
+                  marketing services are more than just ranking your website on
+                  the top of search engine result pages. Along with making your
+                  website rank on top of SERPs, we focus on converting your
+                  website visitors into paying customers.
                 </p>
 
                 <ul className="funfacts-list">

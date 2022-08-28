@@ -4,51 +4,51 @@ const services = [
   {
     iconClass: 'flaticon-megaphone',
     href: '/single-services',
-    title: 'SEO',
+    title: 'SEO Services',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'Our team will improve your organic traffic and search engine rankings by utilizing cutting-edge SEO technologies supported by the best digital marketing strategies.',
   },
   {
     iconClass: 'flaticon-keywords',
     href: '/single-services',
     title: 'Google Ads',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'Our Google ads services allow you to promote your businesses, sell products and services, drive sales, generate leads & increase brand awareness with Google ads.',
   },
   {
     iconClass: 'flaticon-content-management',
     href: '/single-services',
     title: 'Content Writing',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'From creating a content marketing strategy to curating unique and engaging content, our content writers make content keeping your brand voice and target audience in mind.',
   },
   {
     iconClass: 'flaticon-startup',
     href: '/single-services',
     title: 'Social Media Marketing',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'Our social media marketing service helps you put strategic social media content and social ads in front of users, giving your business valuable, extensive, and targeted exposure.',
   },
   {
     iconClass: 'flaticon-ppc',
     href: '/single-services',
     title: 'E-Commerce Account Management',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'From product description writing to customer queries, our e-commerce account management services will help your business generate ROI and create a positive brand identity.',
   },
   {
     iconClass: 'flaticon-competitor',
     href: '/single-services',
     title: 'Email Marketing',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'Our email marketing services will help you stay connected with your potential customers by gradually "dripping" helpful information, like brand updates, product teasers, and much more.',
   },
   {
     iconClass: 'flaticon-keywords',
     href: '/single-services',
     title: 'Website Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+      'We offer a range of intuitive and user-friendly website development services to help boost your brand identity and convert your visitors into paying customers.',
   },
 ];
 
@@ -58,10 +58,10 @@ const ServicesSection = () => {
       <div className="container">
         <div className="section-title">
           <span className="sub-title">Services</span>
-          <h2>Let’s Check Our Services</h2>
+          <h2>Our Range of Digital Marketing Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
+            As a trusted digital marketing agency, we offer many services at a
+            fraction of the cost. Browse our range of services:
           </p>
         </div>
 
