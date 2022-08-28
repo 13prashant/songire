@@ -1,9 +1,3 @@
-import {
-  COMPLETED_PROJECTS,
-  EXPERT_TEAM_MEMBERS,
-  WORKING_HOURS_SPENT,
-} from '../../utils/AppConfig';
-
 const AboutContent = () => {
   return (
     <div className="about-area ptb-100">
@@ -18,29 +12,25 @@ const AboutContent = () => {
           <div className="col-lg-6 col-md-12">
             <div className="about-content">
               <div className="content">
+                <span className="sub-title">About Us</span>
+                <h2>It's Time to Grow Online</h2>
+                <p>
+                  Providing digital marketing services is our passion, and we're
+                  passionate about helping businesses create a solid online
+                  presence. Indeed, creating a robust online presence is no
+                  longer a choice; it's mandatory. From ranking your website on
+                  search engines to revamping your existing brand identity, we
+                  can do it all for you. As a thriving digital marketing agency,
+                  you won't get the same old-school strategy— you'll get a
+                  well-created plan that fits your needs and goals.
+                </p>
                 <span className="sub-title">Who We Are</span>
-                <h6>At Songire,</h6>
+                <h6></h6>
                 <p>
                   we have astute minds, writers, dreamers, achievers, marketers,
                   and brand strategists, all working around one common goal: to
                   deliver digital solutions that help businesses create a solid
                   online presence.
-                </p>
-                <h6>A Small Agency Delivering Promising Results</h6>
-                <p>
-                  We don't deliver "projects" because we love what we do. We are
-                  never in a hurry to finish one project and jump on to another.
-                  We provide outstanding results while having fun while working.
-                  <em>
-                    <strong>
-                      Our clients have spent more than INR 50,00,000 on ad
-                      campaigns, resulting in excellent ad pay returns.
-                    </strong>
-                  </em>{' '}
-                  As an experienced digital marketing agency, spending money on
-                  techniques that don't produce quantifiable outcomes is not
-                  something we do. Join us today to use our specialized digital
-                  marketing solutions to achieve your market dominance.
                 </p>
               </div>
             </div>

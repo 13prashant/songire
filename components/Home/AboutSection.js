@@ -20,7 +20,7 @@ const AboutSection = () => {
             <div className="about-content">
               <div className="content">
                 <span className="sub-title">About Us</span>
-                <h2>It's Time to Grow Online</h2>
+                <h2>Enjoy Full-Service Digital Marketing Expertise</h2>
                 <p>
                   From content writing to SEO to email marketing, we offer
                   everything you need to make your digital presence. Our digital

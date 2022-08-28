@@ -3,6 +3,15 @@ const OurBrandStory = () => {
     <div className="history-area ptb-100 bg-f9f9f9">
       <div className="container">
         <div className="section-title">
+          <h6>A Small Agency Delivering Promising Results</h6>
+          <p>
+            We don't deliver "projects" because we love what we do. We are never
+            in a hurry to finish one project and jump on to another. We provide
+            outstanding results while having fun while working.
+          </p>
+        </div>
+
+        <div className="section-title">
           <span className="sub-title">Our Brand Story</span>
         </div>
 
