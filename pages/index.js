@@ -1,21 +1,27 @@
-import SongireSeo from '../components/_App/SongireSeo';
-import MainBanner from '../components/Home/MainBanner';
-import AboutSection from '../components/Home/AboutSection';
-import ServicesSection from '../components/Home/ServicesSection';
-import FeedbackSection from '../components/Home/FeedbackSection';
-import CaseStudiesSection from '../components/Home/CaseStudiesSection';
-import PartnersSection from '../components/Home/PartnersSection';
-
 export default function Home() {
   return (
-    <>
-      <SongireSeo />
-      <MainBanner />
-      <AboutSection />
-      <ServicesSection />
-      <FeedbackSection />
-      <PartnersSection />
-      <CaseStudiesSection />
-    </>
+    <div className="diwali">
+      <div className="diwali__wrapper">
+        <div className="diwali__left">
+          <h1>
+            Happy <br /> Diwali
+          </h1>
+          <hr className="desktop" />
+          <div className="desktop">
+            <h3>songire.com</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+        <div className="diwali__right">
+          <div className="diwali__diya">
+            <img src="/images/diya.svg" alt="Happy Diwali" width="100%" />
+          </div>
+          <div className="mobile">
+            <h3>songire.com</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

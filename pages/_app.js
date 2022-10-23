@@ -9,14 +9,8 @@ import '../public/css/flaticon.css';
 import '../public/css/style.scss';
 import '../public/css/responsive.scss';
 
-import Layout from '../components/_App/Layout';
-
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
