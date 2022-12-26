@@ -2,7 +2,7 @@ import Link from 'next/link';
 import {
   COMPLETED_PROJECTS,
   EXPERT_TEAM_MEMBERS,
-  WORKING_HOURS_SPENT,
+  YEARS_OF_EXPERIENCE,
 } from '../../utils/AppConfig';
 
 const AboutSection = () => {
@@ -41,8 +41,8 @@ const AboutSection = () => {
                   <li>
                     <div className="list">
                       <i className="flaticon-web-settings"></i>
-                      <h3>{WORKING_HOURS_SPENT}</h3>
-                      <p>Working hours were spent</p>
+                      <h3>{YEARS_OF_EXPERIENCE}</h3>
+                      <p>Years of experience</p>
                     </div>
                   </li>
                   <li>

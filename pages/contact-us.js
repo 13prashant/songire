@@ -20,9 +20,6 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="contact-info-box">
-                {/* <div className="back-icon">
-                  <i className="bx bx-map"></i>
-                </div> */}
                 <div className="icon">
                   <i className="bx bx-map"></i>
                 </div>
@@ -33,9 +30,6 @@ const ContactUs = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="contact-info-box">
-                {/* <div className="back-icon">
-                  <i className="bx bx-phone-call"></i>
-                </div> */}
                 <div className="icon">
                   <i className="bx bx-phone-call"></i>
                 </div>
@@ -53,9 +47,6 @@ const ContactUs = () => {
 
             <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
               <div className="contact-info-box">
-                {/* <div className="back-icon">
-                  <i className="bx bx-time-five"></i>
-                </div> */}
                 <div className="icon">
                   <i className="bx bx-time-five"></i>
                 </div>

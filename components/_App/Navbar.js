@@ -11,33 +11,33 @@ export const navItems = [
     link: 'About Us',
     href: '/about-us',
   },
-  {
-    link: 'Services',
-    href: '/services',
-    subLinks: [
-      { link: 'SEO', href: 'services/seo' },
-      { link: 'Google Ads', href: 'services/google-ads' },
-      { link: 'Content Writing', href: 'services/content-writing' },
-      {
-        link: 'Social Media Marketing',
-        href: 'services/social-media-marketing',
-      },
-      {
-        link: 'E-Commerce Account Management',
-        href: 'services/e-commerce-account-management',
-      },
-      { link: 'Email Marketing', href: 'services/email-marketing' },
-      { link: 'Website Development', href: 'services/website-development' },
-    ],
-  },
-  {
-    link: 'Blog',
-    href: '/blog',
-  },
-  {
-    link: 'Client Result',
-    href: '/client-result',
-  },
+  // {
+  //   link: 'Services',
+  //   href: '/services',
+  //   subLinks: [
+  //     { link: 'SEO', href: 'services/seo' },
+  //     { link: 'Google Ads', href: 'services/google-ads' },
+  //     { link: 'Content Writing', href: 'services/content-writing' },
+  //     {
+  //       link: 'Social Media Marketing',
+  //       href: 'services/social-media-marketing',
+  //     },
+  //     {
+  //       link: 'E-Commerce Account Management',
+  //       href: 'services/e-commerce-account-management',
+  //     },
+  //     { link: 'Email Marketing', href: 'services/email-marketing' },
+  //     { link: 'Website Development', href: 'services/website-development' },
+  //   ],
+  // },
+  // {
+  //   link: 'Blog',
+  //   href: '/blog',
+  // },
+  // {
+  //   link: 'Client Result',
+  //   href: '/client-result',
+  // },
   {
     link: 'Contact Us',
     href: '/contact-us',

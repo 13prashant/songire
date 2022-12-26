@@ -16,7 +16,7 @@ const AboutUs = () => {
 
       <OurBrandStory />
 
-      <OurTeam />
+      {/* <OurTeam /> */}
 
       <StartProjectWithUs />
     </>

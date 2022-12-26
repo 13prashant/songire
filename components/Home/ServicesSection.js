@@ -83,13 +83,13 @@ const ServicesSection = () => {
                 </h3>
                 <p>{description}</p>
 
-                <Link href={href}>
+                {/* <Link href={href}>
                   <a className="learn-more-btn">
                     <i className="left-icon flaticon-next-button"></i>
                     Learn More
                     <i className="right-icon flaticon-next-button"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}

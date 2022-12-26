@@ -25,9 +25,10 @@ const Footer = () => {
                 </a>
               </Link>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                We are a full-service digital agency that helps businesses of
+                all sizes succeed in the digital world. Our team of experienced
+                professionals specializes in web design and development, search
+                engine optimization (SEO), social media marketing, and more.
               </p>
               <ul className="social-link">
                 <li>
