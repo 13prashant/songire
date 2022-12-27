@@ -9,7 +9,9 @@ const MainBanner = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
                 <div className="banner-content">
-                  <span className="sub-title">Seo Marketing</span>
+                  <span className="sub-title">
+                    An Seo & Digital Marketing Company
+                  </span>
                   <h1>Full Spectrum of Digital Marketing Services</h1>
                   <p>
                     It's time to strike out your entire digital marketing to-do
@@ -30,7 +32,7 @@ const MainBanner = () => {
 
               <div className="col-lg-6 col-md-12">
                 <div className="banner-image">
-                  <img src="/images/banner-img3.jpg" alt="image" />
+                  <img src="/images/banner-img6.png" alt="image" />
                 </div>
               </div>
             </div>

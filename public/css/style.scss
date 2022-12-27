@@ -2934,9 +2934,9 @@ About Area CSS
   margin-right: 20px;
   background: {
     position: center center;
-    size: cover;
+    size: contain;
     repeat: no-repeat;
-    image: url(/images/about-img1.jpg);
+    image: url(/images/about-img3.png);
   }
   img {
     display: none;
