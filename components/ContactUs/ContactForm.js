@@ -1,16 +1,42 @@
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { EMAIL_ADDRESS } from '../../utils/AppConfig';
 
 const ContactForm = () => {
+  const [isPending, setIsPending] = useState(false);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
 
   const onSubmit = async (data) => {
     try {
+      setIsPending(true);
+
+      await fetch(`https://formsubmit.co/ajax/${EMAIL_ADDRESS}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          Phone: data.phone,
+          subject: data.subject,
+          message: data.message,
+        }),
+      });
+
+      reset();
+
+      setIsPending(false);
     } catch (error) {
       console.error(error);
+      setIsPending(false);
     }
   };
 
@@ -57,14 +83,15 @@ const ContactForm = () => {
                         className="form-control"
                         {...register('email', {
                           required: true,
-                          pattern: /^\S+@\S+$/i,
+                          pattern:
+                            /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                         })}
                       />
                       <div
                         className="invalid-feedback"
                         style={{ display: 'block' }}
                       >
-                        {errors.email && 'Email is required.'}
+                        {errors.email && 'Put a valid email.'}
                       </div>
                     </div>
                   </div>
@@ -75,13 +102,16 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Your phone number"
                         className="form-control"
-                        {...register('number', { required: true })}
+                        {...register('phone', {
+                          required: true,
+                          pattern: /^(\+\d{1,3}[- ]?)?\d{10}$/,
+                        })}
                       />
                       <div
                         className="invalid-feedback"
                         style={{ display: 'block' }}
                       >
-                        {errors.number && 'Number is required.'}
+                        {errors.phone && 'Put a valid phone number.'}
                       </div>
                     </div>
                   </div>
@@ -110,20 +140,24 @@ const ContactForm = () => {
                         rows="5"
                         placeholder="Write your message..."
                         className="form-control"
-                        {...register('text', { required: true })}
+                        {...register('message', { required: true })}
                       />
                       <div
                         className="invalid-feedback"
                         style={{ display: 'block' }}
                       >
-                        {errors.text && 'Text body is required.'}
+                        {errors.message && 'Message is required.'}
                       </div>
                     </div>
                   </div>
 
                   <div className="col-lg-12 col-sm-12">
-                    <button type="submit" className="default-btn">
-                      Send Message
+                    <button
+                      type="submit"
+                      className="default-btn"
+                      disabled={isPending}
+                    >
+                      {isPending ? 'Sending...' : 'Send Message'}
                     </button>
                   </div>
                 </div>
