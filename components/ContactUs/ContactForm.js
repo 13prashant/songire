@@ -1,16 +1,17 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import { EMAIL_ADDRESS } from '../../utils/AppConfig';
 
 const ContactForm = () => {
+  const router = useRouter();
   const [isPending, setIsPending] = useState(false);
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-    reset,
   } = useForm();
 
   const onSubmit = async (data) => {
@@ -32,14 +33,7 @@ const ContactForm = () => {
         }),
       });
 
-      Swal.fire({
-        title: 'Message sent',
-        text: `Thank you ${data.name} for your interest in our services. We will get back to you shortly with more information.`,
-        icon: 'success',
-        confirmButtonText: 'Cool',
-      });
-
-      reset();
+      router.push('/thank-you');
 
       setIsPending(false);
     } catch (error) {
